@@ -24,11 +24,11 @@ printArray(arr, n);
 	clock_t start, stop;
 	bubbleSort(arr, n, start, stop);
 	printArray(arr, n);
-	printf("\033[095mtime for buble sort %d mseconds\033[0m\n", (stop - start) );
+	printf("\033[095mtime for buble sort %d mseconds\033[0m\n", (int)(stop - start) );
 
 	sortShell(arr, n, start, stop);
 	printArray(arr, n);
-	printf("\033[095mtime for shell sort %d mseconds\033[0m\n", (stop - start) );
+	printf("\033[095mtime for shell sort %d mseconds\033[0m\n",(int) (stop - start) );
 
 	//qsort1(arr, l, k);
 	printArray(arr, n);
