@@ -1,0 +1,4 @@
+﻿  №1 with cycle.cpp
+C:\lab\250505-2\Melyukh\laba 1\№1 with cycle\№1 with cycle\№1 with cycle.cpp(28,28): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\lab\250505-2\Melyukh\laba 1\№1 with cycle\№1 with cycle\№1 with cycle.cpp(29,12): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  №1 with cycle.vcxproj -> C:\lab\250505-2\Melyukh\laba 1\№1 with cycle\x64\Debug\№1 with cycle.exe

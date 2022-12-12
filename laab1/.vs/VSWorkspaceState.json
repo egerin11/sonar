@@ -1,0 +1,9 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\№1 with cycle",
+    "\\№1 with cycle\\№1 with cycle"
+  ],
+  "SelectedNode": "\\№1 with cycle\\№1 with cycle\\№1 with cycle.cpp",
+  "PreviewInSolutionExplorer": false
+}

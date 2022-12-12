@@ -1,0 +1,6 @@
+﻿  Header.cpp
+C:\sonar\laba4\№3\№3\Header.cpp(30,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  №3.cpp
+  Создание кода...
+  LINK : не найден или не выполнена сборка C:\sonar\laba4\№3\x64\Debug\№3.exe при последней инкрементной компоновке; выполняется полная компоновка
+  №3.vcxproj -> C:\sonar\laba4\№3\x64\Debug\№3.exe
