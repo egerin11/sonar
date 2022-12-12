@@ -14,7 +14,7 @@ int main()
 		x = a * a + 1;
 		x = x * x + 1;
 		printf_s("desired number %d", x);
-		return 0;
+		
 	}
 	return 0;
 }
