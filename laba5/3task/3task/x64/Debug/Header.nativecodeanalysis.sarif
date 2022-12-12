@@ -1,0 +1,379 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6308",
+          "message": {
+            "text": "realloc может возвратить пустой указатель: присвоение пустого указателя переменной \"arr[i]\", которая передается в качестве аргумента функции realloc, приведет к утечке исходного блока памяти."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 18,
+                  "endLine": 85,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "delcol",
+                  "decoratedName": "?delcol@@YAXPEAPEAHAEAH1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Разыменование пустого (NULL) указателя. \"arr[j]\" содержит то же значение NULL, которое находилось в \"realloc()`85\". "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                },
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 8,
+                  "endLine": 68,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "delcol",
+                  "decoratedName": "?delcol@@YAXPEAPEAHAEAH1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                          },
+                          "region": {
+                            "startLine": 75,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "\"*arr\" может быть равно NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Продолжить этот цикл (предполагается \"i<m\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"j<n\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"arr[j][i]<0\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "\"*arr\" разыменовано, но, возможно, по-прежнему равно NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/OAIP_Melyukh/lab5/3task/3task/Header.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "9cc5dc576e9f1915b9baf9718ba464f29f9ac28f8a80a44f040a9b0833444586"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/oaip_melyukh/lab5/3task/3task/header.h"
+          },
+          "hashes": {
+            "sha-256": "8eb9bb287fff2e1f4e62d36d9cbbae57862b775a2f53ca1f5d3c0ee6683ffc40"
+          }
+        }
+      ]
+    }
+  ]
+}
