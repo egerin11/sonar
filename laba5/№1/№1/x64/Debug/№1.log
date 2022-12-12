@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 ﻿  Header.cpp
   №1.cpp
   Создание кода...
-  LINK : не найден или не выполнена сборка C:\OAIP_Melyukh\lab5\№1\x64\Debug\№1.exe при последней инкрементной компоновке; выполняется полная компоновка
-=======
-﻿  №1.cpp
->>>>>>> main
-  №1.vcxproj -> C:\OAIP_Melyukh\lab5\№1\x64\Debug\№1.exe
+  №1.vcxproj -> C:\sonar\laba5\№1\x64\Debug\№1.exe

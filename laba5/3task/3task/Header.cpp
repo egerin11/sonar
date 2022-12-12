@@ -75,22 +75,16 @@ void deleteColumns(int** arr, int &n, int& m)
 			if (count == n)
 			{
 				deleteColumnsHelp(arr, n, m, i);
-<<<<<<< HEAD
+
 				arr[i] = (int*)realloc(arr[i], (m) * sizeof(int*));
-=======
-			/*	int***/ 
-				/*if (x != NULL)
-					arr = x;*/
->>>>>>> main
+
 			}
 
 
 		}
-<<<<<<< HEAD
-		
-=======
+
 		arr[i] = (int*)realloc(arr[i], (m) * sizeof(int*));
->>>>>>> main
+
 	}
 	 
 	printArray(arr, n,m);
